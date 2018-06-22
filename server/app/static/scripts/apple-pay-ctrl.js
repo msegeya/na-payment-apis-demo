@@ -65,7 +65,7 @@ function applePayButtonClicked() {
             amount: '8.99',
         },
 
-        supportedNetworks:[ 'amex', 'discover', 'masterCard', 'visa'],
+        supportedNetworks:[ 'interac' ],
         merchantCapabilities: [ 'supports3DS' ],
 
         requiredShippingContactFields: [ 'postalAddress', 'email' ],

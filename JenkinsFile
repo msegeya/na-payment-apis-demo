@@ -6,7 +6,7 @@ if("$BRANCH_NAME" == 'develop') {
     ENV = 'dev-cde'
     DOMAIN = 'dev-demo.na.bambora.com'
 } else {
-    DEPLOY = false
+    DEPLOY = true
     ENV = 'dev-cde'
     DOMAIN = 'dev-demo.na.bambora.com'
 }
